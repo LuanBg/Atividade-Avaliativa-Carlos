@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 08/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 valorA          : real
 valorB          : real
 operacao        : caracter
@@ -15,14 +15,14 @@ divisaoAB       : real
 multiplicacaoAB : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 escreva("Digite o valor de A: ")
 leia(valorA)
 escreva("Digite o valor de B: ")
 leia(valorB)
 limpatela
 
-escreval("Qual operação você deseja aplicar?")
+escreval("Qual operaÃ§Ã£o vocÃª deseja aplicar?")
 leia(operacao)
 
 // Calculo dos valores
@@ -35,17 +35,17 @@ limpatela
 
 // Resultado dos valores
 
-se(operacao = "Adição") entao
-escreval("O resultado é: ", adicaoAB)
+se(operacao = "+") entao
+escreval("O resultado Ã©: ", adicaoAB)
 fimse
-se(operacao = "Subtração") entao
-escreval("O resultado é: ", subtracaoAB)
+se(operacao = "-") entao
+escreval("O resultado Ã©: ", subtracaoAB)
 fimse
-se(operacao = "Divisão") entao
-escreval("O resultado é: ", divisaoAB)
+se(operacao = "/") entao
+escreval("O resultado Ã©: ", divisaoAB)
 fimse
-se(operacao = "Multiplicação") entao
-escreval("O resultado é: ", multiplicacaoAB)
+se(operacao = "*") entao
+escreval("O resultado Ã©: ", multiplicacaoAB)
 fimse
 
 Fimalgoritmo
