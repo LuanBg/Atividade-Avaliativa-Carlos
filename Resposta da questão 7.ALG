@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 09/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 produto    : caracter
 quantidade : real
 desconto   : real
@@ -13,21 +13,21 @@ preco      : real
 precofinal : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("Qual produto você deseja? ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreval("Qual produto vocÃª deseja? ")
 leia(produto)
 limpatela
 escreva("Digite a quantidade: ")
 leia(quantidade)
 limpatela
-escreva("Digite o preço do produto: ")
+escreva("Digite o preÃ§o do produto: ")
 leia(preco)
 limpatela
 
 // Dados dos produtos
 escreval("Produto: ", produto)
 escreval("Quantidade: ", quantidade)
-escreval("Preço sem desconto: ", preco)
+escreval("PreÃ§o sem desconto: ", preco)
 
 // Resultado final
 se(quantidade <= 5) entao
@@ -41,6 +41,6 @@ desconto <- (preco * 0.05)
 fimse
 
 precofinal <- (preco - desconto)
-escreval("Preco com desconto: ", precofinal)
+escreval("PreÃ§o com desconto: ", precofinal)
 
 Fimalgoritmo
